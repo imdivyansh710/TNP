@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+.btn
+{
+ padding-right: 100px;
+ padding-left: 100px;
+ min-width:250px;
+
+
+}
+
+.imgbox
+{
+
+	position: absolute;
+	width: 800px;
+	height: 500px;
+	background-color: grey;
+	padding: 50px;
+	margin-left: 300px;
+	margin-top: 10px;
+
+
+
+}

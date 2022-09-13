@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+    <servlet-name>registration</servlet-name>
+    <servlet-class>com.tnp.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registration</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>documents</servlet-name>
+    <servlet-class>com.tnp.Document</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>documents</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>category</servlet-name>
+    <servlet-class>com.tnp.Category</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>category</servlet-name>
+    <url-pattern>/category</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>studentprofile</servlet-name>
+    <servlet-class>com.tnp.Studentprofile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>studentprofile</servlet-name>
+    <url-pattern>/studentprofile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>profile</servlet-name>
+    <servlet-class>com.tnp.ViewProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>profile</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>upcomming</servlet-name>
+    <servlet-class>com.tnp.UpcommingCompany</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>upcomming</servlet-name>
+    <url-pattern>/upcomming</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>query</servlet-name>
+    <servlet-class>com.tnp.Query</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>query</servlet-name>
+    <url-pattern>/query</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>reply</servlet-name>
+    <servlet-class>com.tnp.Reply</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>reply</servlet-name>
+    <url-pattern>/reply</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>reply2</servlet-name>
+    <servlet-class>com.tnp.Reply2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>reply2</servlet-name>
+    <url-pattern>/reply2</url-pattern>
+  </servlet-mapping>
+  
+  
+ 
+  </web-app>

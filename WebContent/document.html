@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>upload</title>
+	<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+   <link rel="stylesheet" type="text/css" href="Document.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="upload" method="post" enctype="multipart/form-data">
+
+
+	<div class="container">
+
+			<br/>
+			<div class ="reg text-center"><h1><strong>UPLOADS</strong></h1></div>
+			<br/>
+
+				<div>
+					 <label for="emailid"><strong>PASSPORT SIZE PHOTO:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile"  name="photo" required>
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+		  				
+		  		</div>
+				</div>
+					<br/>
+
+					<div>
+						 <label for="emailid"><strong>AADHAR CARD:</strong></label>
+						 <div class="custom-file">
+			  				<input type="file" class="custom-file-input" id="customFile" >
+			  				<label class="custom-file-label" for="customFile">Choose file</label>
+						</div>
+					</div>
+						<br/>
+
+						<div>
+						 <label for="emailid"><strong>PAN CARD:</strong></label>
+						 <div class="custom-file">
+			  				<input type="file" class="custom-file-input" id="customFile" >
+			  				<label class="custom-file-label" for="customFile">Choose file</label>
+						</div>
+					</div>
+						<br/>
+
+
+					<div>
+					 <label for="emailid"><strong>SEMISTER 1 MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+								<br/>
+				<div>
+					 <label for="emailid"><strong>SEMISTER 2 MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+									<br/>
+				<div>
+					 <label for="emailid"><strong>SEMISTER 3 MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+										<br/>
+				<div>
+					 <label for="emailid"><strong>SEMISTER 4 MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+									<br/>
+				<div>
+					 <label for="emailid"><strong>SEMISTER 5 MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+										<br/>
+				<div>
+					 <label for="emailid"><strong>SEMISTER 6 MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+										<br/>
+				<div>
+					 <label for="emailid"><strong>10th MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+												<br/>
+				<div>
+					 <label for="emailid"><strong>12th MARKSHEET:</strong></label>
+					 <div class="custom-file">
+		  				<input type="file" class="custom-file-input" id="customFile" >
+		  				<label class="custom-file-label" for="customFile">Choose file</label>
+					</div>
+				</div>
+						<br/>
+
+
+		<button type="submit" class="btn btn-success">SUBMIT</button>
+	
+	</div>
+
+	<br/>
+
+</form>
+
+
+
+<script>
+// Add the following code if you want the name of the file appear on select
+$(".custom-file-input").on("change", function() {
+  var fileName = $(this).val().split("\\").pop();
+  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+});
+</script>
+
+
+</body>
+</html>
